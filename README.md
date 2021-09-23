@@ -1,5 +1,7 @@
 # Microsoft Office Professional Plus Installation
-MOPPI is a project that provides automated installation and activation of Microsoft Office Professional Plus
+[MOPPI](https://github.com/nyhtml/MOPPI/) is a project that provides automated installation and activation of Microsoft Office Professional Plus
 
 ## Requirements
-All previous versions of Microsoft Office must be uninstalled before running MOPPI or the process will fail.
+* Any instances of Microsoft Office must be uninstalled.
+* Windows 10.
+  * OS Build 1703 or later 
