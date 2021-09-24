@@ -12,10 +12,17 @@
 * Word
 
 ## Requirements
+### Installation
 * Windows 10.
   * OS Build 1703 or later
 * Remove any instances of Microsoft Office.
   * Microsoft Office 2016 and earlier
   * Microsoft Office 365
 * An Internet connection
-  * Ethernet
+  * Ethernet (preffered)
+  * Wi-Fi
+### Activation
+* An Internet connection
+  * Ethernet (preffered)
+  * Wi-Fi
+* Add valid Product Key to Configuration.xml
