@@ -14,8 +14,8 @@ M.O.P.P.I (aka [MOPPI](https://github.com/nyhtml/MOPPI/)) is a project that uses
 ## Installation
 * Windows 10
   * OS Build 1703 or later
-* Removal any MSI version of Microsoft Office
-  * Microsoft Office 2016 and earlier
+* Removal of any MSI version of Microsoft Office
+  * Microsoft Office 2019 and earlier
   * Microsoft Office 365
 * An Internet connection
   * Ethernet (preffered)
