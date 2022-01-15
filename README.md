@@ -33,3 +33,6 @@ M.O.P.P.I. (aka [MOPPI](https://github.com/nyhtml/MOPPI)) is a project that uses
 * A valid Product Key
   * Add key to Configuration.xml before installation
   * Use Change Product Key after installation
+
+## Download
+Download the [latest releases](https://github.com/nyhtml/MOPPI/releases/latest/download/MOPPI.zip) of [MOPPI](https://github.com/nyhtml/MOPPI) on GitHub.
