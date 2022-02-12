@@ -36,4 +36,4 @@ M.O.P.P.I. (aka [MOPPI](https://github.com/nyhtml/MOPPI)) is a project that uses
   * Use Change Product Key after installation
 
 ## Download
-Download the [latest releases](https://github.com/nyhtml/MOPPI/releases/latest/download/MOPPI.zip) of [MOPPI](https://github.com/nyhtml/MOPPI) on GitHub.
+[Download](https://github.com/nyhtml/MOPPI/releases/latest/download/MOPPI.zip) or [view the releases](https://github.com/nyhtml/MOPPI/releases/) of [MOPPI](https://github.com/nyhtml/MOPPI) on GitHub.
