@@ -26,6 +26,7 @@ M.O.P.P.I. (aka [MOPPI](https://github.com/nyhtml/MOPPI)) is a project that uses
 * An Internet connection
   * Ethernet (preffered)
   * Wi-Fi
+* Administrator Privilidges
 
 ## Activation
 * An Internet connection
