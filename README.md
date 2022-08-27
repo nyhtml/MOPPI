@@ -3,6 +3,7 @@ M.O.P.P.I. (aka [MOPPI](https://github.com/nyhtml/MOPPI)) is a project that uses
 
 ## Table of Contents
 * [Default Apps](#default-apps)
+* [Other Apps](#other-apps)
 * [Installation](#installation)
 * [Activation](#activation)
 * [Download](#download)
