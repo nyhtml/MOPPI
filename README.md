@@ -34,7 +34,7 @@ M.O.P.P.I. (aka [MOPPI](https://github.com/nyhtml/MOPPI)) is a project that uses
 
 ## Activation
 * An Internet connection
-  * Ethernet
+  * Ethernet (preferred)
   * Wi-Fi
 * A valid Product Key
   * Add key to Configuration.xml before installation
