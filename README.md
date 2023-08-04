@@ -18,8 +18,10 @@ M.O.P.P.I. (aka [MOPPI](https://github.com/nyhtml/MOPPI)) is a project that uses
 * Skype
 * Word
 
+[MOPPI v2018.09](https://github.com/nyhtml/MOPPI/releases/tag/2018.09)
+
 ## Other Apps
-* [Visio](https://github.com/nyhtml/MOPPI/releases/tag/2022.09) - MOPPI v2022.09
+* Visio - [MOPPI v2022.09](https://github.com/nyhtml/MOPPI/releases/tag/2022.09)
 
 ## Installation
 * Windows 10
