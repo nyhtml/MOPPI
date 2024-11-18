@@ -1,4 +1,4 @@
-@ECHO OFF && COLOR 1F && TITLE MOPPI v2024.06
+@ECHO OFF && COLOR 1F && TITLE MOPPI v2024.11
 
 :SELECT
 CLS
@@ -22,8 +22,11 @@ ECHO  1. Microsoft Office Professional Plus 2019
 ECHO  2. Microsoft Office Professional Plus 2019 ^+ Projects ^& Visio
 ECHO  3. Microsoft Office LTSC Professional Plus 2021
 ECHO  4. Microsoft Office LTSC Professional Plus 2021 ^+ Projects ^& Visio
-ECHO  5. Microsoft Office 365
-ECHO  6. Microsoft Office Removal Tool (Reboot required)
+ECHO  5. Microsoft Office LTSC Professional Plus 2024
+ECHO  6. Microsoft Office LTSC Professional Plus 2024 ^+ Projects ^& Visio
+ECHO  7. Microsoft Office 365
+ECHO.
+ECHO 10. Office Removal Tool (Reboot required)
 ECHO.
 SET /p ChoosedLanguage=Enter a number and press ENTER key or 0 to quit: 
 
@@ -35,19 +38,20 @@ GOTO SELECT
 :1
 "Office\2019.exe" /configure "Configuration\2019.xml"&GOTO DONE
 :2
-"Office\2019.exe" /configure "Configuration\visio.xml"&GOTO DONE
+"Office\2019.exe" /configure "Configuration\2019plus.xml"&GOTO DONE
 :3
 "Office\2021.exe" /configure "Configuration\2021.xml"&GOTO DONE
 :4
-"Office\2021.exe" /configure "Configuration\projects.xml"&GOTO DONE
+"Office\2021.exe" /configure "Configuration\2021plus.xml"&GOTO DONE
 :5
-"Office\365.exe"&GOTO DONE
+"Office\2024.exe" /configure "Configuration\2024.xml"&GOTO DONE
 :6
+"Office\2024.exe" /configure "Configuration\2024.xml"&GOTO DONE
+:7
+"Office\365.exe"&GOTO DONE
+:10
 "Office\SetupProd_OffScrub.exe"&GOTO DONE
 
 :DONE
 MOPPI.cmd
 :E
-CLS&TITLE Essex County College
-ECHO To close this window . . .
-PAUSE
