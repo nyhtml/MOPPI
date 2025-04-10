@@ -1,4 +1,4 @@
-@ECHO OFF && COLOR 1F && TITLE M.O.P.P.I. - Microsoft Office Professional Plus Installer
+@ECHO OFF && COLOR 1F && TITLE MOPPI v2024.11
 
 :SELECT
 CLS
