@@ -1,7 +1,8 @@
 # Microsoft Office Professional Plus Installer
-M.O.P.P.I. (aka [MOPPI](https://github.com/nyhtml/MOPPI)) is a project that uses a text-based user interface to provide automated installation and activation of Microsoft Office Professional Plus. Currently, Microsoft Office products utilize Click-to-Run technology instead of a  Windows Installer (MSI), so MOPPI takes full advantage of this in the command-line interface of the Windows Operating System for a simple installation and activation.
+**M.O.P.P.I.** (aka [MOPPI](https://github.com/nyhtml/MOPPI)) is a project that uses a text-based user interface to automate the installation and activation of Microsoft Office Professional Plus.  
+Since Microsoft Office products now use Click-to-Run technology instead of the traditional Windows Installer (MSI), MOPPI fully leverages this approach via the Windows command-line interface to streamline both setup and activation.
 
-## Langues
+## Languages
 * [English (en-us)](/README-en.md)
 * [Français (fr)](/README-fr.md)
 * [Deutsch (de)](/README-de.md)
