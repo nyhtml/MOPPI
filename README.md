@@ -3,7 +3,7 @@
 Since Microsoft Office products now use Click-to-Run technology instead of the traditional Windows Installer (MSI), MOPPI fully leverages this approach via the Windows command-line interface to streamline both setup and activation.
 
 ## Languages
-* [English (en-us)](/README-en.md)
+* [English (en-us)](/Documentation/README-en.md)
 * [Français (fr)](/README-fr.md)
 * [Deutsch (de)](/README-de.md)
 * [हिन्दी (hi)](/README-hi.md)
