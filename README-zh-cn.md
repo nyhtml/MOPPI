@@ -23,7 +23,7 @@
 * **支持的操作系统：** Windows 10  
   * 构建版本 1703 或更高  
 * **前提条件：**  
-  * 移除所有已安装的 MSI 版本 Office：  
+  * 卸载所有已安装的 MSI 版本 Office：  
     * Microsoft Office 2019 及更早版本  
     * Microsoft Office 365  
   * 网络连接：  
@@ -40,4 +40,4 @@
   * 或在安装后使用 **更改产品密钥**  
 
 ## 下载  
-下载最新版本的 **[MOPPI.zip](https)**
+下载最新版本的 **[MOPPI.zip](https://github.com/nyhtml/MOPPI/releases/latest/download/MOPPI.zip)**，或浏览所有 [发行版本](https://github.com/nyhtml/MOPPI/releases/)。
