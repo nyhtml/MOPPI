@@ -1,8 +1,12 @@
-@ECHO OFF && COLOR 1F && TITLE MOPPI v2025.06
+@ECHO OFF
+COLOR 1F && CLS
+TITLE MOPPI v2025.07
+
+:: Get current year using PowerShell (works on all modern systems)
+FOR /F %%i IN ('powershell -NoProfile -Command "Get-Date -Format yyyy"') DO SET Year=%%i
 
 :SELECT
 CLS
-
 ECHO ---------------------------------------------------------------
 ECHO    M.O.P.P.I. - Microsoft Office Professional Plus Installer
 ECHO ---------------------------------------------------------------
@@ -13,7 +17,7 @@ ECHO     Looking for older instances of Office in the Control Panel
 ECHO               If found, the install will fail.
 ECHO.
 ECHO ---------------------------------------------------------------
-ECHO    Copyright (c) 2013-%DATE:~6,4% Stephan Pringle. All rights reserved.
+ECHO    Copyright (c) 2013-%Year% Stephan Pringle. All rights reserved.
 ECHO                Licensed to Essex County College
 ECHO ---------------------------------------------------------------
 ECHO.
