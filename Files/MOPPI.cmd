@@ -32,30 +32,73 @@ ECHO  7. Microsoft Office 365
 ECHO.
 ECHO 10. Office Removal Tool (The system will reboot)
 ECHO.
-SET /p ChoosedLanguage=Enter a number and press ENTER key or 0 to quit: 
+SET /P ChoosedLanguage=Enter a number and press ENTER key or 0 to quit: 
 
-IF %ChoosedLanguage% == 0 GOTO E
-IF %ChoosedLanguage% GEQ 1 IF %ChoosedLanguage% LEQ 187 GOTO %ChoosedLanguage%
+:: Validate input
+SETLOCAL ENABLEDELAYEDEXPANSION
+SET /A Dummy=%ChoosedLanguage% >NUL 2>&1
+IF ERRORLEVEL 1 (
+    ENDLOCAL
+    ECHO Invalid input. Please enter a number.
+    TIMEOUT /T 2 >NUL
+    GOTO SELECT
+)
+ENDLOCAL
 
+:: Routing
+IF "%ChoosedLanguage%"=="0" GOTO ExitApp
+IF "%ChoosedLanguage%"=="1" GOTO Install2019
+IF "%ChoosedLanguage%"=="2" GOTO Install2019Plus
+IF "%ChoosedLanguage%"=="3" GOTO Install2021
+IF "%ChoosedLanguage%"=="4" GOTO Install2021Plus
+IF "%ChoosedLanguage%"=="5" GOTO Install2024
+IF "%ChoosedLanguage%"=="6" GOTO Install2024Plus
+IF "%ChoosedLanguage%"=="7" GOTO Install365
+IF "%ChoosedLanguage%"=="10" GOTO RunRemovalTool
+
+ECHO Invalid selection. Please enter a valid option.
+TIMEOUT /T 2 >NUL
 GOTO SELECT
 
-:1
-"Office\2019.exe" /configure "Configuration\2019.xml"&GOTO DONE
-:2
-"Office\2019.exe" /configure "Configuration\2019plus.xml"&GOTO DONE
-:3
-"Office\2021.exe" /configure "Configuration\2021.xml"&GOTO DONE
-:4
-"Office\2021.exe" /configure "Configuration\2021plus.xml"&GOTO DONE
-:5
-"Office\2024.exe" /configure "Configuration\2024.xml"&GOTO DONE
-:6
-"Office\2024.exe" /configure "Configuration\2024plus.xml"&GOTO DONE
-:7
-"Office\365.exe"&GOTO DONE
-:10
-"Office\SetupProd_OffScrub.exe"&GOTO DONE
+:Install2019
+"Office\2019.exe" /configure "Configuration\2019.xml"
+GOTO Done
 
-:DONE
+:Install2019Plus
+"Office\2019.exe" /configure "Configuration\2019plus.xml"
+GOTO Done
+
+:Install2021
+"Office\2021.exe" /configure "Configuration\2021.xml"
+GOTO Done
+
+:Install2021Plus
+"Office\2021.exe" /configure "Configuration\2021plus.xml"
+GOTO Done
+
+:Install2024
+"Office\2024.exe" /configure "Configuration\2024.xml"
+GOTO Done
+
+:Install2024Plus
+"Office\2024.exe" /configure "Configuration\2024plus.xml"
+GOTO Done
+
+:Install365
+"Office\365.exe"
+GOTO Done
+
+:RunRemovalTool
+"Office\SetupProd_OffScrub.exe"
+GOTO Done
+
+:Done
+ECHO.
+ECHO Returning to MOPPI main menu...
+TIMEOUT /T 3 >NUL
 GOTO SELECT
-:E
+
+:ExitApp
+ECHO Exiting MOPPI...
+TIMEOUT /T 1 >NUL
+EXIT
