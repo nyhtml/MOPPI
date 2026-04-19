@@ -1,26 +1,9 @@
 <Configuration ID="00000000-0000-0000-000000000000">
 
-  <Add OfficeClientEdition="64" Channel="PerpetualVL2019">
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2024">
 
-    <Product ID="ProPlus2019Volume" PIDKEY="YOUR-KEYS-WILL-WORK-HERE">
+    <Product ID="ProPlus2024Volume" PIDKEY="YOUR-KEYS-WILL-WORK-HERE">
       <Language ID="en-us" />
-      <ExcludeApp ID="Groove" />
-      <ExcludeApp ID="Lync" />
-      <ExcludeApp ID="OneDrive" />
-    </Product>
-
-    <Product ID="VisioPro2019Volume" PIDKEY="YOUR-KEYS-WILL-WORK-HERE">
-      <ExcludeApp ID="Groove" />
-      <ExcludeApp ID="Lync" />
-      <ExcludeApp ID="OneDrive" />
-      <Language ID="en-us" />
-    </Product>
-
-    <Product ID="ProjectPro2019Volume" PIDKEY="YOUR-KEYS-WILL-WORK-HERE">
-      <Language ID="en-us" />
-      <ExcludeApp ID="Groove" />
-      <ExcludeApp ID="Lync" />
-      <ExcludeApp ID="OneDrive" />
     </Product>
 
   </Add>
@@ -32,7 +15,7 @@
   <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
   <Property Name="DeviceBasedLicensing" Value="0" />
 
-  <Updates Enabled="TRUE" />
+<Updates Enabled="TRUE" />
 
   <AppSettings>
     <Setup Name="Company" Value="Sipylus" />
