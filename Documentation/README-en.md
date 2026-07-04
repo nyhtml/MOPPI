@@ -1,6 +1,7 @@
 # Table of Contents
 * [Default Apps](#default-apps)
 * [Other Apps](#other-apps)
+* [Utilities](#utilities)
 * [Installation](#installation)
 * [Activation](#activation)
 * [Download](#download)
@@ -19,6 +20,9 @@
 * Microsoft Project  
 * Microsoft Visio  
 
+## Utilities
+* Microsoft Office Removal Tool  
+
 ## Installation
 * **Supported OS:** Windows 10  
   * OS Build 1703 or later  
@@ -30,6 +34,7 @@
     * Ethernet (preferred)  
     * Wi-Fi  
   * Administrator privileges  
+    * Run as administrator  
 
 ## Activation
 * **Internet connection required:**  
